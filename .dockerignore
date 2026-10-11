@@ -1,0 +1,52 @@
+# Dependencies
+node_modules
+# Note: pnpm-lock.yaml is needed for Docker build
+
+# Build outputs
+dist
+.vite
+*.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Tests
+coverage
+.nyc_output
+*.test.ts
+*.spec.ts
+
+# Misc
+.editorconfig
+.prettierrc
+.eslintrc
+
+# CI / test fixtures
+.github
+server/__fixtures__
